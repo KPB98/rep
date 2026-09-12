@@ -1,0 +1,10 @@
+{
+  "appId": "com.kpb98.rep",
+  "appName": "Rep",
+  "webDir": "dist",
+  "backgroundColor": "#f4f6f1",
+  "ios": {
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile"
+  }
+}
