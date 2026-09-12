@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#20342b"/>
+  <circle cx="256" cy="244" r="154" fill="none" stroke="#d8ff53" stroke-width="38" stroke-linecap="round" stroke-dasharray="800 168" transform="rotate(-74 256 244)"/>
+  <text x="256" y="274" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="112" font-weight="800" text-anchor="middle" letter-spacing="-8">rep</text>
+  <text x="365" y="278" fill="#d8ff53" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="78" font-weight="800" text-anchor="middle">/</text>
+</svg>
