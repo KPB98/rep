@@ -1,0 +1,22 @@
+{
+  "name": "rep",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rep sprint tracker packaged for the web and iPhone with Capacitor.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "ios:setup": "npm run build && node scripts/setup-ios.mjs",
+    "ios:sync": "npm run build && npx cap sync ios",
+    "ios:open": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.2",
+    "@capacitor/ios": "8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
