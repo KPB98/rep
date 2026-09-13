@@ -11,9 +11,9 @@ def make_icon(size: int) -> None:
     scale = size / 512
     image = Image.new("RGB", (size, size), "#20342b")
     draw = ImageDraw.Draw(image)
-    width = round(38 * scale)
+    width = round(44 * scale)
     bounds = tuple(round(value * scale) for value in (102, 90, 410, 398))
-    draw.arc(bounds, start=-74, end=250, fill="#d8ff53", width=width)
+    draw.arc(bounds, start=0, end=200, fill="#d8ff53", width=width)
 
     font = ImageFont.truetype(str(FONT), round(112 * scale))
     slash_font = ImageFont.truetype(str(FONT), round(78 * scale))
