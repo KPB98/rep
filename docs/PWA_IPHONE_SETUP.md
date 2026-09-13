@@ -15,7 +15,7 @@ The expected address is:
 https://kpb98.github.io/rep/
 ```
 
-Deployments happen automatically whenever the `capacitor` branch is pushed.
+Deployments happen automatically whenever the `main` branch is pushed.
 
 ## Add Rep to the iPhone
 
